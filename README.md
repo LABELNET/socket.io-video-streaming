@@ -1,6 +1,12 @@
 socket.io-video-streaming
 =====================
 
+## Run
+
+```
+CAMERA=opencv python3 app.py
+```
+
 ## Supporting Code 
 
 -  [Socket.IO](https://python-socketio.readthedocs.io/en/latest/client.html)
