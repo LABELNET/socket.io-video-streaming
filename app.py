@@ -37,7 +37,7 @@ def gen(camera):
 if __name__ == '__main__':
     # Camera
     camera = Camera()
-    sio.connect('http://192.168.0.103:7001', namespaces=['/ops'])
+    sio.connect('http://192.168.50.176:7001', namespaces=['/ops'])
     sio.emit('domebar/live', 'ops live', namespace='/ops')
     while True:
         frame = camera.get_frame()
